@@ -1,0 +1,13 @@
+{
+  "name": "coding-concepts",
+  "version": "2.0.0",
+  "description": "Coding Concepts — a nine-module interactive Python learning book. Static site, content-driven from data/*.json.",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "deploy": "wrangler pages deploy . --project-name=coding-concepts"
+  },
+  "devDependencies": {
+    "wrangler": "^3"
+  }
+}
